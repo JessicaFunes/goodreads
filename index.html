@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> Share Book Recomendations</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<div id="nav-content">
+				<div id="nav-barra">
+				
+					<div id="nav-logo">
+					<a href="/">
+							<img alt="Goodrads: Book reviews, recommendation, and discussion" src="https://s.gr-assets.com/assets/home/header_logo-8d96d7078a3d63f9f31d92282fd67cf4.png">
+					</a>
+					</div>
+					<div id="nav-inputs">
+						<input class="register" type="text" placeholder="Email address"></input>
+						<input class="register"type="text" placeholder="Password"></input>
+						<button id="nav-sign">Sign in</button>
+							<br>
+							<input type="checkbox" id="nav-remember" name="Remember_me"></input>
+							<label for="nav-remember">Remember me</label>
+							<a id="password" href="/user/forgot_password/xmlrpc">Forgot it?</a>
+					
+					</div>
+				</div>
+				<div id="meet-text">
+					<img src="img/text.png">
+				</div>
+				<div id="Signup">
+					<h2 id="newhere">New here? Create a free account!</h2>
+					<input class="register2" type=text placeholder="Name"></input>
+					<input class="register2" type=text placeholder="Email Address"></input>
+					<input class="register2" type=text placeholder="Password"></input>
+					<button id="nav_button_signup">Sign up</button>
+					<div id="nav_terms">
+						<p>By clicking “Sign up” I agree to the Goodreads Terms of Service and confirm that I am at least 13 years old.</p>
+
+					</div>
+
+				</div>
+				<img src="img/background.jpg">
+				<div id="nav-redesociales">
+					<p>Or sign in using</p>
+					<a href="https://www.facebook.com/v2.0/dialog/oauth?app_id=2415071772&auth_type=rerequest&client_id=2415071772&display=popup&domain=www.goodreads.com&e2e=%7B%7D&locale=en_US&origin=1&redirect_uri=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df593d9cc%26domain%3Dwww.goodreads.com%26origin%3Dhttps%253A%252F%252Fwww.goodreads.com%252Ffd98b9e6%26relation%3Dopener%26frame%3Df203124444&response_type=token%2Csigned_request&scope=email%2C%20user_friends%2Cpublish_actions&sdk=joey&version=v2.0">
+					 	<img src="img/facebook.png"> 
+					 </a>
+					<a href="https://api.twitter.com/oauth/authenticate?oauth_token=JNpsIwAAAAAAAKqrAAABUwCsJU0">
+					 	<img src="img/twitter.png">
+					</a>
+					<a href="https://accounts.google.com/o/oauth2/auth?access_type=online&approval_prompt=auto&client_id=1068836607260-162p6qsus02cenu78tl5se48csss359m.apps.googleusercontent.com&include_granted_scopes=true&openid.realm=https://www.goodreads.com&redirect_uri=https://www.goodreads.com/google_accounts/sign_in&response_type=code&scope=https://www.googleapis.com/auth/userinfo.email">
+					 	<img src="img/google.jpg">
+					</a>
+					<a href="https://www.amazon.com/ap/signin?_encoding=UTF8&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.pape.max_auth_age=0&ie=UTF8&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=lwa_na_default&marketPlaceId=ATVPDKIKX0DER&arb=99188375-005c-4473-bd05-6e0594f5f5e6&language=es_ES&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fap%2Foa%3FmarketPlaceId%3DATVPDKIKX0DER%26arb%3D99188375-005c-4473-bd05-6e0594f5f5e6&enableGlobalAccountCreation=1&metricIdentifier=amzn1.application.7ff8a2be5dae490b9914b4f430ca5c4c&signedMetricIdentifier=pjdsmDnaXhj%2FNbw9hCvWIQvTgX0htu%2BjAbCBVOtDWHM%3D">
+						<img src="img/amazon.jpg">
+					</a>
+				</div>	
+			</div>
+		</nav>
+	</header>
+	<main role="main">
+		<section>
+			<article id="Deciding">
+				<h2>Deciding what to read next?</h2>
+				<p>You’re in the right place. Tell us what titles or genres you’ve enjoyed in the past, and we’ll give you surprisingly insightful recommendations.</p>
+			</article>
+			<article id="friendsread">
+				<h2>What are your friends reading?</h2>
+				<p>Chances are your friends are discussing their favorite (and least favorite) books on Goodreads. Want to learn more? Take the tour.</p>
+			</article>
+			<div id="section_div-caja1">
+				<h2>What will <em>you</em>discover?</h2>
+				<article> 
+				<p>Because Jessica liked...</p> 
+				<p>She discovered:</p>
+				</article>
+				<div id="caja1-firstbooks">
+					<img src="img/libro1.jpg">
+					<img src="img/libro2.jpg">
+					<img src="img/libro3.jpg">
+					<img src="img/libro4.jpg">
+					<img src="img/arrow.png">
+					<img src="img/libro5.jpg">
+					<p> Contemporary Classics</p>
+				</div>
+				<article>
+					<p>Because Aldo Like...</p><p>He discovered:</p>
+				</article>
+				<div id="caja1-secondbooks">
+					<img src="img/libro6.jpg">
+					<img src="img/libro7.jpg">
+					<img src="img/libro8.jpg">
+					<img src="img/arrow.png">
+					<img src="img/libro9.jpg">
+				</div>
+				
+			</div>
+			<div id="section_div-caja2">
+				<div id="section_caja2-titulo">
+					<h2> Search and Browse books </h2>
+				</div>
+				
+				<div>
+					<input type="text" id="section_caja2_input" placeholder="Title / Author / ISBN">
+					</input>
+				</div>
+				<div id="section_caja2-lista1">
+				 	<ul>
+						<li><a href="#">Art</a></li>
+						<li><a href="#">Biography</a></li>
+						<li><a href="#">Business</a></li>
+						<li><a href="#">Chick Lit</a></li>
+						<li><a href="#">Children's</a></li>
+						<li><a href="#">Christian</a></li>
+						<li><a href="#">Classics</a></li>
+						<li><a href="#">Comics</a></li>						
+						<li><a href="#">Contemporary</a></li>						
+						<li><a href="#">Cookbooks</a></li>
+					</ul>
+				</div>
+				<div id="section_caja2-lista2">
+				 	<ul>
+						<li><a href="#">Crime</a></li>
+						<li><a href="#">Ebooks</a></li>
+						<li><a href="#">Fantasy</a></li>
+						<li><a href="#">Fiction</a></li>
+						<li><a href="#">Gay And Lesbian</a></li>
+						<li><a href="#">Graphic Novels</a></li>
+						<li><a href="#">Historical Fiction</a></li>
+						<li><a href="#">History</a></li>						
+						<li><a href="#">Horror</a></li>						
+						<li><a href="#">Humor And Comedy</a></li>
+					</ul>
+				</div>
+				<div id="section_caja2-lista3">
+				 	<ul>
+						<li><a href="#">Manga</a></li>
+						<li><a href="#">Memoir</a></li>
+						<li><a href="#">Music</a></li>
+						<li><a href="#">Mystery</a></li>
+						<li><a href="#">Non Fiction</a></li>
+						<li><a href="#">Paranormal</a></li>
+						<li><a href="#">Philosophy</a></li>
+						<li><a href="#">Poetry</a></li>						
+						<li><a href="#">Psychology</a></li>						
+						<li><a href="#">Religion</a></li>
+					</ul>
+				</div>
+				<div id="section_caja2-lista4">
+				 	<ul>
+						<li><a href="#">Romance</a></li>
+						<li><a href="#">Science</a></li>
+						<li><a href="#">Science Fiction</a></li>
+						<li><a href="#">Self Help</a></li>
+						<li><a href="#">Suspense</a></li>
+						<li><a href="#">Spirituality</a></li>
+						<li><a href="#">Thriller</a></li>
+						<li><a href="#">Travel</a></li>						
+						<li><a href="#">More genres…</a></li>						
+					</ul>
+				</div>
+			</div>
+			<div id="section_div-caja3">
+				<div id="section_caja3-Trivia">
+					<h2>Trivia</h2>
+					<p>Who are the lovers in the book The Time Traveler's Wife?</p>
+					<ol type="a">
+						<li><a href="#">Henry and Clare</a></li>
+						<li><a href="#">Gomez and Alba</a></li>
+						<li><a href="#">Wells and Stephanie</a></li>
+						<li><a href="#">Richard and Kimy</a></li>
+					</ol>
+					<p>More Trivia</p>
+				</div>
+				<div id="section_caja3-Quizzes">
+					<h2>Quizzes</h2>
+					<img src="img/pararapido.png">
+				</div>
+				<div id="section_caja3-Quotes">
+					<h2>Quotes</h2>
+					<img src="img/pararapido2.png">
+				</div>
+			</div>
+			<div id="section_div-caja4"> <!--Esta caja me falto, pero ya me dio muchisima flojera hacerla -->
+				
+			</div>
+		</section>
+		<aside>
+			<div id="aside-rigth-container">
+				<h2>
+					Get the App
+				</h2>
+				<div id="aside-stores">
+					<a href="https://itunes.apple.com/app/apple-store/id355833469?mt=8">
+					<img src="img/app store.png">
+					</a>
+					<a href="https://play.google.com/store/apps/details?id=com.goodreads&hl=en&PAffiliateID=10lHMS">
+					<img src="img/Google play.png">
+					</a>
+				</div>
+				<div id="aside-readers">
+					<h2>
+					Readers online now
+					</h2>
+					<a href="https://www.goodreads.com/user/show/19525609-valeria-cardona">
+						<img src="img/Foto1.jpg">
+					</a>
+					<a href="https://www.goodreads.com/user/show/2710074-laura-constanza">
+						<img src="img/Foto2.jpg">
+					</a>
+					<a href="https://www.goodreads.com/user/show/41020169-sandra">
+						<img src="img/Foto3.jpg">
+					</a>
+					<a href="https://www.goodreads.com/user/show/36812736-fatima-havilliard">
+						<img src="img/Foto4.jpg">
+					</a>
+					<a href="https://www.goodreads.com/user/show/44130388-cesar">
+						<img src="img/Foto5.jpg">
+					</a>
+					<a href="https://www.goodreads.com/user/show/47994001-jane">
+						<img src="img/Foto6.jpg">
+					</a>
+					<br>
+					<a href="https://www.goodreads.com/user/show/52887166-el-larcho-que-robaba-libros">
+						<img src="img/Foto7.jpg">
+					</a>
+					<a href="https://www.goodreads.com/user/show/26876995-nath-medina">
+						<img src="img/Foto8.jpg">
+					</a>
+					<a href="https://www.goodreads.com/user/show/40939565-libni-estefania">
+						<img src="img/Foto9.jpg">
+					</a>
+					<a href="https://www.goodreads.com/user/show/6265022-mary">
+						<img src="img/Foto10.jpg">
+					</a>
+					<a href="https://www.goodreads.com/user/show/13886396-graciela-romero">
+						<img src="img/Foto11.jpg">
+					</a>
+					<a href="https://www.goodreads.com/user/show/52388401-diana-lvarez">
+						<img src="img/Foto12.jpg">
+					</a>
+				</div>
+				<div id="aside-sponsored">
+					<h2>
+						SPONSORED LINKS
+					</h2>
+					
+					<a href="">
+						<img src="img/Sponsor1.jpg">
+					</a>
+					<a href="">Artifacts of Death</a>
+					<div>A cozy mystery set in the Southwest. An unsolved murder threatens to disrupt a small Utah town. G-rated.
+					Click for details.
+					</div>
+					
+					<a href="">
+						<img src="img/Sponsor2.jpg">
+					</a>
+					<a href="">Running on Empy</a>
+					<div>Are you a "roadie?" A continent of beauty, people, stories and 12,000 miles of Americana captivate. Visit http://book-runningonempty.com
+					</div>
+				</div>
+				<div id="aside-containerlovelists">
+					<h2>
+						Love lists?
+					</h2>
+					<div class="Lovelists">
+						<a href="https://www.goodreads.com/list/show/11.Best_Crime_Mystery_Books">Best crime and mistery books
+						</a>
+						
+						<a href="/book/show/2429135.The_Girl_with_the_Dragon_Tattoo"><img alt="The Girl with the Dragon Tattoo by Stieg Larsson" title="The Girl with the Dragon Tattoo by Stieg Larsson" src="https://d.gr-assets.com/books/1327868566s/2429135.jpg">
+						</a>
+
+						<a href="/book/show/16299.And_Then_There_Were_None"><img alt="And Then There Were None by Agatha Christie" title="And Then There Were None by Agatha Christie" src="https://d.gr-assets.com/books/1391120695s/16299.jpg">
+						</a>
+						<a href="/book/show/960.Angels_Demons"><img alt="Angels &amp; Demons by Dan Brown" title="Angels &amp; Demons by Dan Brown" src="https://d.gr-assets.com/books/1303390735s/960.jpg">
+						</a>
+						<a href="/book/show/12873.Rebecca"><img alt="Rebecca by Daphne du Maurier" title="Rebecca by Daphne du Maurier" src="https://d.gr-assets.com/books/1327871977s/12873.jpg">
+						</a>
+						<br>
+						<div class="aside-lovelists-voters">
+	    				5,265 books | 11,680 voters
+	  					</div>
+						
+					</div>
+					<div class="Lovelists">
+						<a href="https://www.goodreads.com/list/show/6.Best_Books_of_the_20th_Century">Best books of the twenty century
+						</a>
+						
+						<a href="/book/show/2657.To_Kill_a_Mockingbird"><img alt="To Kill a Mockingbird by Harper Lee" title="To Kill a Mockingbird by Harper Lee" src="https://d.gr-assets.com/books/1361975680s/2657.jpg">
+						</a>
+						<a href="/book/show/5470.1984"><img alt="1984 by George Orwell" title="1984 by George Orwell" src="https://d.gr-assets.com/books/1348990566s/5470.jpg">
+						</a>
+						<a href="/book/show/33.The_Lord_of_the_Rings"><img alt="The Lord of the Rings by J.R.R. Tolkien" title="The Lord of the Rings by J.R.R. Tolkien" src="https://d.gr-assets.com/books/1411114164s/33.jpg">
+						</a>
+						<a href="/book/show/4671.The_Great_Gatsby"><img alt="The Great Gatsby by F. Scott Fitzgerald" title="The Great Gatsby by F. Scott Fitzgerald" src="https://d.gr-assets.com/books/1438728255s/4671.jpg">
+						</a>
+						<br>
+						<div class="aside-lovelists-voters">
+	    				6,425 books | 43,565 voters
+	  					</div>
+
+					</div>
+					<div class="Lovelists">
+						<a href="https://www.goodreads.com/list/show/19.Best_for_Book_Clubs"> Best for Book Clubs
+						</a>
+						
+						<a href="/book/show/4667024-the-help"><img alt="The Help by Kathryn Stockett" title="The Help by Kathryn Stockett" src="https://d.gr-assets.com/books/1346100365s/4667024.jpg">
+						</a>
+						<a href="/book/show/77203.The_Kite_Runner"><img alt="The Kite Runner by Khaled Hosseini" title="The Kite Runner by Khaled Hosseini" src="https://d.gr-assets.com/books/1394898159s/77203.jpg">
+						</a>
+						<a href="/book/show/43641.Water_for_Elephants"><img alt="Water for Elephants by Sara Gruen" title="Water for Elephants by Sara Gruen" src="https://d.gr-assets.com/books/1388183358s/43641.jpg">
+						</a>
+						<a href="/book/show/19063.The_Book_Thief"><img alt="The Book Thief by Markus Zusak" title="The Book Thief by Markus Zusak" src="https://d.gr-assets.com/books/1390053681s/19063.jpg">
+						</a>
+						<br>
+						<div class="aside-lovelists-voters">
+	   					 3,911 books | 9,777 voters
+	 					</div>
+					</div>
+				</div>
+			
+				<div id="last">
+					<h2>
+						Are you an author or a publisher?
+					</h2>
+					<p>Gain access to a massive audience of more than 40 million book lovers. Goodreads is a great place to promote your books.</p>
+					<input type="text" placeholder="Author Program"></input>
+					<input type="text" placeholder="Advertise"></input>
+				</div>
+			</div>
+		</aside>
+	</main>
+	<footer>
+		<div id="footer_container" >
+			<div id="copyright">
+				©
+				2016
+				Goodreads Inc
+			</div>
+			<div id="footer_rigthside">
+				<ul>
+					<li>
+						<a href="#"> about us</a>
+					</li>
+					<li>
+						<a href="#"> advertise</a>
+					</li>
+					<li>
+						<a href="#"> author program</a>
+					</li>
+					<li>
+						<a  href="#"> jobs</a>
+					</li>
+					<li>
+						<a href="#"> api</a>
+					</li>
+					<li>
+						<a  href="#"> our blog</a>
+					</li>
+					<li>
+						<a  href="#"> authors & advertisers blog</a>
+					</li>
+					<li>
+						<a  href="#"> terms</a>
+					</li>
+					<li>
+						<a  href="#"> privacy</a>
+					</li>
+					<li>
+						<a href="#"> help</a>
+					</li>
+					<li class="mobileToggleLink">
+						<span class="label">switch to:</span>
+						<a href="/toggle_mobile?rel=nofollow&amp;switch_to=mobile">mobile version</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

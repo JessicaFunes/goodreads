@@ -1,0 +1,399 @@
+* {
+	margin: 0px;
+}
+body {
+	font-size: 12px;
+	line-height: 18px;
+}
+nav #nav-content {
+	width: 1200px;
+	height: 380px; 
+	margin-top: 0px;
+	position: relative;
+}
+nav #nav-barra {
+	padding-top: 10px;
+    padding-left: 120px;
+    display: block;
+    text-align: left;
+    color: #382110;
+   	font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+   	border-width: 1px;
+   	border-bottom-color: black;
+   	position: absolute;
+   	width: inherit;
+}
+nav #nav-logo {
+	display: inline-block;
+    zoom: 1;
+    vertical-align: middle;
+    margin: 3px 13px 0px 5px;
+    float: left;
+    text-align: left;
+}
+nav #nav-inputs {
+	float: right;
+	font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+    padding-top: 5px;
+    margin-right: 170px;
+
+}
+nav .register {
+	height: 28px;
+
+}
+nav #nav-sign {
+	background-color: black;
+	color: white;
+	padding: 5px;
+}
+nav #nav-remember {
+	background-color: blue;
+	font-size: 4x;
+	font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+}
+nav #password {
+	text-decoration: blink;
+	margin-left: 40px;
+	color: grey;
+	font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+nav #meet-text {
+	padding-top: 90px;
+	padding-left: 141px;
+	position: absolute;
+}
+nav #Signup {
+	float: right;
+    width: 280px;
+   margin: 91px 0px 0px 835px;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+    position: absolute;
+
+}
+nav #newhere {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: normal;
+}
+nav .register2 {
+	width: 270px;
+    padding: 7px 5px;
+    margin-top: 5px;
+    font-size: 16px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    border: #DCD6CC 1px solid;
+    color: #848380;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+    resize: none;
+}
+
+nav #nav_button_signup {
+    padding: 8px;
+    border: 0px;
+    border-radius: 4px;
+    background-color: #fdd05f;
+    font-size: 18px;
+    width: 85px;
+    margin-top: 5px;
+    font-weight: normal;
+}
+nav #nav_terms {
+    display: inline;
+    float: right;
+    position: absolute;
+    padding: 5px;
+    font-size: 10px;
+    line-height: 10px;
+    margin-left: 7px;
+}
+#nav-redesociales {
+    position: absolute;
+    bottom: 10px;
+    right: 68px;
+    width: 283px;
+    height: 32px;
+    margin: 0px 18px 0 0;
+    vertical-align: middle;
+    text-align: center;
+    padding: 18px 4px 17px 0;
+    background: #333333;
+    border-radius: 4px 4px 0 0;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 18px;
+    display: inline-flex;
+    color: white;
+}
+
+#nav-redesociales p {
+    margin: 15px;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+
+}
+
+#nav-redesociales img {
+    width: 25px; 
+    height: auto;
+    padding: 3px 3px 3px 3px;
+
+}
+
+section {
+    width: 700px;
+    height: auto;
+    display: inline;
+    float: left;
+}
+
+section #Deciding {
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 18px;
+    float: left;
+    margin: 11px 0px 0px 110px;
+    width: 280px;
+    font-size: 13px;
+    font-weight: initial;
+}
+section #friendsread {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 18px;
+    float: left;
+    margin: 11px 0px 0px 28px;
+    width: 280px;
+    font-size: 13px;
+    font-weight: initial;
+}
+#section_div-caja1 {
+    width: 625px;
+    height: auto;
+    margin-left: 110px;
+    border-radius: 10px;
+    padding: 13px 0px 300px 15px;
+    background-color: #f4f2e9;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAoCAYAAAA%2FtpB3AAAAOEl…YMWXSCAU5gUYzVAAaELA5tCHUQAxjQZIFir16%2FhXAByw8GmnhQCm8AAAAASUVORK5CYII%3D");
+    clear: both;
+    margin-top: 20px;
+    height: 170px;
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+#section_div-caja2{
+    width: 625px;
+    height: auto;
+    margin-left: 110px;
+    margin-top: 10px;
+
+}
+#section_caja2-titulo {
+    float: left;
+    display: inline;
+    margin-top: 10px;
+} 
+#section_caja2_input{
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 18px;
+    float: right;
+    display: inline;
+    margin: 11px 0px 0px 110px;
+    width: 280px;
+    font-size: 13px;
+    font-weight: initial;
+}
+
+#section_caja2-lista1 {
+    float: left;
+    width: 25%;
+    display: block;
+    margin-top: 6px;
+    text-decoration: blink;
+}
+#section_caja2-lista1  ul li a {
+    text-decoration: blink; 
+    color: #00635d;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#section_caja2-lista2 {
+    float: left;
+    width: 25%;
+    display: block;
+    margin-top: 6px;
+    text-decoration: blink;
+}
+#section_caja2-lista2  ul li a {
+    text-decoration: blink; 
+    color: #00635d;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#section_caja2-lista3 {
+    float: left;
+    width: 25%;
+    display: block;
+    margin-top: 6px;
+    text-decoration: blink;
+}
+#section_caja2-lista3  ul li a {
+    text-decoration: blink; 
+    color: #00635d;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#section_caja2-lista4 {
+    float: left;
+    width: 25%;
+    display: block;
+    margin-top: 6px;
+    text-decoration: blink;
+}
+#section_caja2-lista4  ul li a {
+    text-decoration: blink; 
+    color: #00635d;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#section_div-caja3 {
+    margin-top: 213px;
+    margin-left: 137px;
+   
+
+}
+#section_caja3-Trivia {
+    float: left;
+    width: 25%;
+    display: block;
+    margin-top: 40px;
+    text-decoration: blink;
+}
+#section_caja3-Quizzes {
+    float: left;
+    width: 25%;
+    display: block;
+    margin-top: 40px;
+    text-decoration: blink
+}
+
+#section_caja3-Quotes {
+    float: left;
+    width: 25%;
+    display: block;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+
+
+ aside {
+    display: inline;
+    float: right;
+    width: 500px;
+    height: 1035px;
+    margin-left: 30px;
+}
+
+#aside-rigth-container {
+    margin-left: 52px;
+    margin-top: 25px;
+
+}
+ #aside-stores img {
+    width: 135px;
+    height: auto;
+    padding: 10px;
+ }
+ #aside-readers h2 {
+    padding-bottom: 10px;
+ }
+ #aside-readers img {
+     width: 48px;
+     height: auto;
+
+ }
+ #aside-sponsored {
+    width: 300px;
+    height: 435px;
+    padding: 5px;
+    background: #F4F1EA;
+ }
+
+ #aside-containerlovelists {
+    width: 350px;
+ }
+
+ .Lovelists {
+    width: 350px;
+ }
+
+ .Lovelists a {
+    clear: both;
+    width: 100%;
+    min-height: 40px;
+    margin: 0;
+    padding: 2px 0;
+    border-bottom: 1px solid #ebece7;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+   
+}
+.Lovelists img {
+    width: 25px; 
+    height: auto;
+    
+}
+
+.aside-lovelists-voters {
+    color: #aaaaaa;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 11px;
+    line-height: 14px;
+ }
+
+ #last {
+    width: 300px;
+    height: auto;
+    width: 300px;
+    height: auto;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 18px;
+    padding-top: 42px;
+ }
+  #last h2 {
+    padding: 10px 0px
+    font-weight:normal;
+  }
+
+#footer_container {
+    background: #F4F1EA;
+    width: 97%;
+    height: 30px;
+    text-align: left;
+    margin-top: 1100px;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+#copyright {
+    display: inline;
+}
+#footer_rigthside {
+    float:right;
+}
+#footer_rigthside ul li  {
+    list-style: none;
+    float: right;
+    text-decoration: none;
+}
+
+#footer_rigthside ul li a {
+     color: #666;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    padding: 0 5px 0 6px;
+    text-decoration: none;
+    border-left: 1px solid #666;
+}
+ 
+
+
